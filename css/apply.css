@@ -1,0 +1,34 @@
+.js-apply-content h1{
+    margin-left:100px;
+    width:300px;
+    padding:18px;
+    background-color:#146C80;
+    text-align:center;
+}
+
+.js-apply-content form {
+    margin-left:100px;
+    text-align:right;
+    font-size:14px;
+}
+
+.js-apply-content input[type="text"] {
+    margin-left:16px;
+    width:600px;
+    height:28px;
+}
+
+.js-apply-content input[type="submit"] {
+    height:30px;
+    width:100px;
+    background-color:#146C80;
+    color:black;
+    font-family:'Avant Garde', 'Arial', 'Helvetica';
+    font-size:16px;
+    font-weight:bold;
+    border:0;
+}
+
+.js-apply-content input[type="submit"]:active {
+    filter: brightness(80%);
+}

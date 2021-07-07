@@ -1,0 +1,38 @@
+doctype html
+html(lang='eng')
+    head 
+        title ComIT | Home 
+        link(rel="stylesheet" href="../css/main.css")
+        link(rel="stylesheet" href="../css/nav.css")
+        link(rel="stylesheet" href="../css/donate.css")
+        link(rel="stylesheet" href="../css/footer.css")
+        link(rel="icon" href="../assets/comit1.png")
+    body 
+        include includes/nav.pug
+        .body-content.js-body-content 
+            .donate-body.js-donate-body
+                h1 Support Our Team. Support Our Students.
+                form(id="donateform" action="donateForm" method="post")
+                    input(type="button" id="donatesmall" name="donateSmall" value="$3 Donation")
+                    input(type="button" id="donatemedium" name="donateMedium" value="$10 Donation")
+                    input(type="button" id="donatelarge" name="donateLarge" value="$20 Donation")
+                    br
+                    br
+                    label(for=firstname) First Name⠀
+                    input(type="text" id="firstname" name="firstName" autocomplete="off")
+                    br
+                    label(for=lastname) Last Name⠀⠀
+                    input(type="text" id="lastname" name="lastName" autocomplete="off")
+                    br
+                    label(for=comments) Comments⠀⠀⠀
+                    input(type="text" id="comments" name="comments" autocomplete="off")
+                    br
+                    label(for=email) Email   ⠀⠀⠀ ⠀
+                    input(type="text" id="donate" name="donate" autocomplete="off")
+                    br
+                    br
+                    input(type="submit" id="submit" name="submitDonate")
+                h1(style="font-size:12px;") All donations to ComIT are eligible for a tax receipt in Canada!
+            include includes/footer.pug
+    body 
+html

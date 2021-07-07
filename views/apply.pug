@@ -1,0 +1,202 @@
+doctype html
+html(lang='eng')
+    head 
+        title ComIT | Home 
+        link(rel="stylesheet" href="../css/main.css")
+        link(rel="stylesheet" href="../css/nav.css")
+        link(rel="stylesheet" href="../css/apply.css")
+        link(rel="stylesheet" href="../css/footer.css")
+        link(rel="icon" href="../assets/comit1.png")
+    body 
+        .nav.js-nav
+            .nav__logo.js-nav__logo
+                a(href="http://localhost:4444")
+                    img(src='../assets/comit2.png' alt="ComIT")
+            .nav__a.js-nav__a
+                a(href="http://localhost:4444/courses") Courses
+                a(href="http://localhost:4444/employers") Employers
+                a(href="http://localhost:4444/supporters") Supporters
+                a(href="http://localhost:4444/donate" class="nav__donate js-nav__donate" style="padding:7.5px 12.5px;") Donate
+            .nav__social.js-nav__social.js-nav__a
+                a(href="https://www.linkedin.com/school/comitorg/")
+                    img(src="../assets/icons/linkedin.png")
+                a(href="https://www.youtube.com/channel/UCWHKdUjlbwcEqYnTvei7Pqg")
+                    img(src="../assets/icons/youtube.webp")
+                a(href="https://www.instagram.com/comit_org/?hl=en")
+                    img(src="../assets/icons/instagram.png") 
+                a(href="https://twitter.com/comitorg?lang=en")
+                    img(src="../assets/icons/twitter.webp")
+                a(href="https://www.facebook.com/ComITorg")
+                    img(src="../assets/icons/facebook.webp")
+                    
+        .body-content.js-body-content
+            .apply-content.js-apply-content 
+                h1 Course Application
+                form(id="applyform" action="applyform" method="post")
+                    table 
+                        tr 
+                            th
+                                label(for=firstname) First name
+                            th
+                                input(type="text" id="firstname" name="firstName" autocomplete="off")
+                                br
+                        tr
+                            th
+                                label(for=lastname) Last name
+                            th
+                                input(type="text" id="lastname" name="lastName" autocomplete="off")
+                                br
+                        tr
+                            th
+                                label(for=dateofbirth) Date of birth
+                            th
+                                input(type="text" id="dateofbirth" name="dateOfBirth" autocomplete="off")
+                                br
+                        tr 
+                            th
+                                label(for=age) Age
+                            th
+                                input(type="text" id="age" name="age" autocomplete="off")
+                                br
+                        tr
+                            th 
+                                label(for=gender) Gender
+                            th
+                                input(type="text" id="gender" name="gender" autocomplete="off")
+                                br
+                        tr
+                            th 
+                                label(for=countryandcity) Country and city of residence
+                            th
+                                input(type="text" id="countryandcity" name="countryAndCity" autocomplete="off")
+                                br
+                        tr
+                            th
+                                label(for=worklegally) Can you legally work FULL TIME in Canada
+                            th
+                                input(type="text" id="worklegally" name="workLegally" autocomplete="off")
+                                br
+                        tr 
+                            th
+                                label(for=citizenship) What type of visa or citizenship do you have
+                            th
+                                input(type="text" id="citizenship" name="citizenship" autocomplete="off")
+                                br
+                        tr 
+                            th
+                                label(for=education) Education
+                            th
+                                input(type="text" id="education" name="education" autocomplete="off")
+                        tr
+                            th
+                                label(for=time) Availability for taking the course
+                            th
+                                input(type="text" id="time" name="time" autocomplete="off")
+                                br
+                        tr
+                            th
+                                label(for=familysize) How many people do you live with
+                                br
+                                br
+                                br
+                            th
+                                input(type="text" id="familysize" name="familysize" autocomplete="off")
+                                br
+                                br
+                                br
+                        tr
+                            th
+                                label(for=question1) Which industry/sector were you previously emplyed in Canada, if any?
+                            th
+                                input(type="text" id="question1" name="question1" autocomplete="off")
+                                br
+                        tr 
+                            th
+                                label(for=question2) Who was your last employer before registering for ComIT? 
+                                br
+                                span Or were you unemployed?
+                            th
+                                input(type="text" id="question2" name="question2" autocomplete="off")
+                                br
+                        tr
+                            th 
+                                label(for=question3) Who was your last employer before registering for ComIT?
+                                br
+                                span Or were you unemplyed?
+                            th
+                                input(type="text" id="question3" name="question3" autocomplete="off")
+                                br
+                        tr
+                            th
+                                label(for=meetcomit) Are there any other people at your house who are currently working?
+                                br 
+                                span Who is the main supporter of your home (no names)? What is his or her job?
+                            th
+                                input(type="text" id="meetcomit" name="meetComit" autocomplete="off")
+                                br
+                        tr
+                            th
+                                label(for=registerreason) How did you found out about ComIT?
+                            th
+                                input(type="text" id="registerreason" name="registerReason" autocomplete="off")
+                                br
+                        tr
+                            th
+                                label(for=device) Do you have a laptop you can bring to take the course?
+                            th
+                                input(type="text" id="device" name="device" autocomplete="off")
+                                br
+                        tr 
+                            th
+                                label(for=expectation) What skills and benefits do you expect you'll get into this training course?
+                            th
+                                input(type="text" id="expectation" name="expectation" autocomplete="off")
+                                br
+                        tr
+                            th
+                                label(for=currentlywork) Do you currently work or have you ever worked? Where? For how long?
+                            th
+                                input(type="text" id="expectation" name="expectation" autocomplete="off")
+                                br
+                        tr 
+                            th
+                                label(for=pasttrainings) Did you take any other trainings or studies? Which ones? Where?
+                            th
+                                input(type="text" id="pasttrainings" name="pastTrainings" autocomplete="off")
+                                br
+                        tr 
+                            th
+                                label(for=jobopening) What kind of job opening are you looking for?
+                            th
+                                input(type="text" id="jobopening" name="jobOpenings" autocomplete="off")
+                                br
+                        tr 
+                            th
+                                label(for=previousknowledge) Do you have any computing or programming knowledge? Please explain
+                            th
+                                input(type="text" id="previousknowledge" name="previousKnowledge" autocomplete="off")
+                                br
+                        tr
+                            th
+                                label(for=skills) What skills do you think you should work on to perform in the IT area?
+                            th
+                                input(type="text" id="skills" name="skills" autocomplete="off")
+                                br
+                        tr
+                            th
+                                label(for=comments) Comments (optional)
+                            th
+                                input(type="text" id="comments" name="comments" autocomplete="off")
+                                br
+                        tr 
+                            th 
+                                br
+                                br
+                                input(type="submit" id="applysubmit" name="applySubmit")
+
+            .footer.js-footer 
+                    .footer__main.js-footer__main
+                        p(style="width:100%;") © ComIT 2020. ComIT is a registered charity. Charity Registration Number 749949723RR0001  
+                        p All charitable donations to ComIT are eligible for a tax receipt in Canada.
+    body 
+html

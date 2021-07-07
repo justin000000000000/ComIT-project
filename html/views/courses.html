@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="eng">
+  <head> 
+    <title>ComIT | Home </title>
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/nav.css">
+    <link rel="stylesheet" href="../css/courses.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="icon" href="../assets/comit1.png">
+    <datalist id="provinces">
+      <option value="Ontario"></option>
+      <option value="Quebec"></option>
+      <option value="Manitoba"></option>
+      <option value="Saskatchewan"></option>
+      <option value="Alberta"></option>
+      <option value="British Columbia"></option>
+      <option value="New Brunswick"></option>
+      <option value="Nova Scotia"></option>
+      <option value="Newfoundland and Labrador"></option>
+      <option value="Prince Edward Island"></option>
+      <option value="Yukon"></option>
+      <option value="Northwest Territories"></option>
+      <option value="Nunavut"></option>
+    </datalist>
+    <script type="text/javascript" src="../scripts/courses.js"></script>
+  </head>
+  <body> 
+    <div class="nav js-nav">
+      <div class="nav__logo js-nav__logo"><a href="http://localhost:4444"><img src="../assets/comit2.png" alt="ComIT"></a></div>
+      <div class="nav__a js-nav__a"><a href="http://localhost:4444/courses">Courses</a><a href="http://localhost:4444/associates">Associates</a><a class="nav__donate js-nav__donate" href="http://localhost:4444/donate" style="padding:7.5px 12.5px;">Donate</a></div>
+      <div class="nav__social js-nav__social js-nav__a"><a href="https://www.linkedin.com/school/comitorg/"><img src="../assets/icons/linkedin.png"></a><a href="https://www.youtube.com/channel/UCWHKdUjlbwcEqYnTvei7Pqg"><img src="../assets/icons/youtube.webp"></a><a href="https://www.instagram.com/comit_org/?hl=en"><img src="../assets/icons/instagram.png"></a><a href="https://twitter.com/comitorg?lang=en"><img src="../assets/icons/twitter.webp"></a><a href="https://www.facebook.com/ComITorg"><img src="../assets/icons/facebook.webp"></a></div>
+    </div>
+    <div class="body-content js-body-content">
+      <div class="register-body js-register-body">
+        <div class="register__body1 js-register__body1"><span id="register-title">Register For A Course Today</span><br><span id="register-description">We will contact you as class openings apply</span><br><br><span id="register-title">Our Courses</span><br>
+          <div class="register1__button-display js-register__button-display">
+            <form id="courseform" action="courseForm" method="post">
+              <input type="button" value="Python" name="pythonbutton" id="pythonButton">
+              <input type="button" value="Java" name="javabutton" id="javaButton">
+              <input type="button" value="Javascript" name="javascriptbutton" id="javascriptButton"><br>
+              <input type="button" value="NodeJS" name="nodejsbutton" id="nodejsButton">
+              <input type="button" value="ReactJS" name="reactjsbutton" id="reactjsButton">
+              <input type="button" value=".NET" name="netbutton" id="netButton">
+              <div class="register__body2 js-register__body2" id="register__body2">
+                <table>
+                  <tr>
+                    <th>
+                      <label>Full Name</label>
+                    </th>
+                    <th>
+                      <input type="text" id="coursesname" name="coursesName" autocomplete="off">
+                    </th>
+                  </tr>
+                  <tr> 
+                    <th>
+                      <label>Email Address</label>
+                    </th>
+                    <th>
+                      <input type="text" id="coursesemail" name="coursesEmail" autocomplete="off">
+                    </th>
+                  </tr>
+                  <tr> 
+                    <th>
+                      <label>Province/Territory</label>
+                    </th>
+                    <th>
+                      <input type="text" list="provinces" id="coursesprovinces" name="coursesProvinces" autocomplete="off">
+                    </th>
+                  </tr>
+                </table><br>
+                <input type="submit" id="submitcourses" name="submitCourses">
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="footer js-footer"> 
+        <div class="footer__main js-footer__main">
+          <p style="width:100%;">© ComIT 2020. ComIT is a registered charity. Charity Registration Number 749949723RR0001  </p>
+          <p>All charitable donations to ComIT are eligible for a tax receipt in Canada.</p>
+        </div>
+      </div>
+    </div>
+  </body>
+  <body> </body>
+</html>
+<html></html>

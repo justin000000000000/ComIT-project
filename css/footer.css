@@ -1,0 +1,12 @@
+.js-footer {
+    background-color:#146C80;
+    float:left;
+    width:100%;
+    margin-top:75px;
+}
+
+.js-footer__main {
+    text-align:center;
+    color:white;
+    margin:35px;
+}

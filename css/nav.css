@@ -1,0 +1,106 @@
+.js-nav {
+    display:inline;
+    position:fixed;
+    height:110px;
+    width:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    padding:10px 0 0 0;
+    background-image:url(../assets/home/banner1.png);
+    background-size:cover;
+    border-collapse:separate;
+}
+
+.js-nav--headline {
+    overflow:hidden;
+    position:absolute;
+    padding:10px 0;
+}
+
+.js-nav__a {
+    float:left;
+    margin: 32.5px 20px;
+    text-align:right;
+}
+
+.js-nav__a a {
+    margin-left:18px;
+    margin-right:18px;
+    padding: 7.5px 12.5px;
+    text-decoration:none;
+    font-size:18px;
+    color:white;
+}
+
+.js-nav__a a:hover {
+    border-bottom:3.4px solid white;
+}
+
+#js-nav__donate a:hover {
+    background-color:#146C80;
+    border:none;
+}
+
+#js-nav__donate {
+    background-color:#F1C411;
+    padding:7.5px 12.5px;
+}
+
+.js-nav__social {
+    margin-left: 160vh;
+    position:absolute;
+    white-space:nowrap;
+    min-width:230px;
+}
+
+.js-nav__social a{
+    width:32px;
+    float:right;
+    padding:1px;
+    margin:28px 0 0 12px;
+}
+.js-nav__social img {
+    width:inherit;
+}
+
+.js-nav__social a:hover{
+    border:none;
+}
+
+.js-nav__logo {
+    float:left;
+    margin-left:105px;
+}
+
+.js-nav__logo img{
+    height:55px;
+    padding:17.5px 0 20px 0;
+}
+
+.js-nav__grid {
+    position:absolute;
+    left:0;
+    top:110px;
+    height:70px;
+    width:100%;
+    background-color:#e3e3e3;
+}
+
+.js-nav__grid table {
+    margin:7.5px 10px;
+    vertical-align:middle;
+}
+.js-nav__grid th {
+    border:1px solid black;
+    height:50px;
+    width:225px;
+    padding:0 20px;
+}
+
+.js-nav__grid td {
+    height:0px;
+    width:0px;
+    padding:0 5px;
+}
+

@@ -1,0 +1,66 @@
+.js-register-body {
+    max-width:1250px;
+    height:500px;
+    margin:50px auto;
+    padding:100px;
+    background-image:url(../assets/stock-3.png);
+    background-size:cover;
+}
+
+#register-title {
+    font-size:24px;
+    color:white;
+}
+
+#register-description {
+    color:white;
+}
+
+.js-register__button-display input[type="button"] {
+    width:100px;
+    height:25px;
+    margin: 7.5px 0 0 13px;
+    border:none;
+    background-color:#F1C411;
+    z-index: -1;
+    font-family:'Avant Garde', 'Arial', 'Helvetica';
+    font-weight:bold;
+    color:black;
+}
+
+.js-register__button-display input[type="button"]:active {
+    filter: brightness(80%);
+}
+
+.js-register__body1 {
+    float:left;
+}
+
+.js-register__body2 {
+    float:left;
+    position:absolute;
+    margin:25px 0 0 70px;
+}
+
+.js-register__body2 {
+    color:white;
+    text-align:left;
+    visibility:hidden;
+}
+
+.js-register__body2 input[type="text"] {
+    margin-left:35px;
+    width:200px;
+    height:20px;
+}
+
+.js-register__body2 input[type="submit"] {
+    height:30px;
+    width:100px;
+    background-color:#146C80;
+    color:black;
+    font-family:'Avant Garde', 'Arial', 'Helvetica';
+    font-size:16px;
+    font-weight:bold;
+    border:0;
+}

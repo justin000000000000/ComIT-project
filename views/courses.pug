@@ -1,0 +1,77 @@
+doctype html
+html(lang='eng')
+    head 
+        title ComIT | Home 
+        link(rel="stylesheet" href="../css/main.css")
+        link(rel="stylesheet" href="../css/nav.css")
+        link(rel="stylesheet" href="../css/courses.css")
+        link(rel="stylesheet" href="../css/footer.css")
+        link(rel="icon" href="../assets/comit1.png")
+        datalist(id="provinces")
+            option(value="Ontario")
+            option(value="Quebec")
+            option(value="Manitoba")
+            option(value="Saskatchewan")
+            option(value="Alberta")
+            option(value="British Columbia")
+            option(value="New Brunswick")
+            option(value="Nova Scotia")
+            option(value="Newfoundland and Labrador")
+            option(value="Prince Edward Island")
+            option(value="Yukon")
+            option(value="Northwest Territories")
+            option(value="Nunavut")
+        script(type="text/javascript" src="../scripts/courses.js")
+            
+            
+    body 
+        include includes/nav.pug
+        .body-content.js-body-content
+            .register-body.js-register-body
+                .register__body1.js-register__body1
+                    span(id="register-title") Register For A Course Today
+                    br
+                    span(id="register-description") We will contact you as class openings apply
+                    br
+                    br
+                    span(id="register-title") Our Courses
+                    br
+                    .register1__button-display.js-register__button-display
+                        form(id="courseform" action="courseForm" method="post")
+                            input(type="button" value="Python" name="pythonbutton" id="pythonButton")
+                            input(type="button" value="Java" name="javabutton" id="javaButton")
+                            input(type="button" value="Javascript" name="javascriptbutton" id="javascriptButton")
+                            br
+                            input(type="button" value="NodeJS" name="nodejsbutton" id="nodejsButton") 
+                            input(type="button" value="ReactJS" name="reactjsbutton" id="reactjsButton")
+                            input(type="button" value=".NET" name="netbutton" id="netButton")
+                            .register__body2.js-register__body2#register__body2
+                                table
+                                    tr
+                                        th
+                                            label(for=coursesname) Full Name
+                                        th
+                                            input(type="text" id="coursesname" name="coursesName" autocomplete="off")
+                                    tr 
+                                        th
+                                            label(for=courseemail) Email Address
+                                        th
+                                            input(type="text" id="coursesemail" name="coursesEmail" autocomplete="off")
+                                    tr 
+                                        th
+                                            label(for=coursesprovinces) Province/Territory
+                                        th
+                                            input(type="text" list="provinces" id="coursesprovinces" name="coursesProvinces" autocomplete="off")
+                                br
+                                input(type="submit" id="submitcourses" name="submitCourses")
+
+
+
+
+
+
+                    
+
+            include includes/footer.pug
+    body 
+html

@@ -1,0 +1,15 @@
+html {
+    max-width:2500px;
+}
+
+body {
+    font-family:'Avant Garde', 'Arial', 'Helvetica';
+}
+
+.js-body-content {
+    width:100%;
+    left:0px;
+    top:160px;
+    overflow:hidden;
+    position:absolute;
+}

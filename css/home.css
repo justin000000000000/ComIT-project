@@ -1,0 +1,144 @@
+.js-home1 {
+    height:750px;
+    margin-top:2.5vh;
+}
+
+.js-home1__display1 {
+    height:575px;
+    width:382px;
+    float:left;
+    margin:65px 0 0 30px;
+}
+
+.js-home1__display--sign {
+    width:50px;
+    height:537.5px;
+    float:left;
+    margin:87.5px 0 0 175px;
+    border-right:8.5px solid black;
+    border-radius:6.5px;
+}
+
+.display1__grad2020-1 {
+    background-image:url(../assets/home/grad-2020-1.png);
+    background-size:cover;
+    height:84px;
+    width:382px;
+    margin:12px 0;
+}
+
+.display1__grad2019-1 {
+    background-image:url(../assets/home/grad-2019-1.png);
+    background-size:cover;
+    height:84px;
+    width:382px;
+    margin:12px 0;
+}
+
+.display1__grad2019-2 {
+    background-image:url(../assets/home/grad-2019-2.png);
+    background-size:cover;
+    height:84px;
+    width:382px;
+    margin:12px 0;
+}
+
+.display1__grad2018-1 {
+    background-image:url(../assets/home/grad-2018-1.png);
+    background-size:cover;
+    height:84px;
+    width:382px;
+    margin:12px 0;
+}
+
+.display1__grad2018-2 {
+    background-image:url(../assets/home/grad-2018-2.png);
+    background-size:cover;
+    height:84px;
+    width:382px;
+    margin:12px 0;
+}
+
+.display1__grad2017-1 {
+    background-image:url(../assets/home/grad-2017-1.png);
+    background-size:cover;
+    height:84px;
+    width:382px;
+    margin:12px 0;
+}
+
+.js-home1__text-1 {
+    max-width:925px; 
+    float:left;
+    font-size:18px;
+    color:#2c2d2e;
+    margin-left:40px;
+    line-height:26px;
+}
+
+.js-home1__text-1 h3 {
+    font-size:24px;
+    color:#146C80;
+}
+
+.js-home2 {
+    margin-top:80px;
+}
+
+.js-home2__icon-display {
+    width:auto;
+    float:left;
+    margin:25px 0 0 275px;
+}
+
+.js-home2 img {
+    float:left;
+    width:45px;
+    height:45px;
+    object-fit:fill;
+    padding:0 10px 0 10px;
+}
+
+.js-home2__text1 {
+    width:100%;
+    float:left;
+    background-color:green;
+}
+
+.js-home2__text2 {
+    float:left;
+    margin:42.5px 70px 52.5px;
+    font-size:20px;
+    vertical-align:center;
+}
+
+.js-home2__partner-display {
+    float:left;
+    margin:45px 0 0 75px;
+}
+
+.js-home2__partner-display img {
+    width:125px;
+    height:40px;
+    object-fit:fill;
+    float:right;
+    margin:0;
+    padding-top:2px;
+}
+
+.js-home2__text3 {
+    float:left;
+    margin:42.5px 60px 52.5px;
+}
+
+.js-home2__link-display {
+    width:100%;
+    float:left;
+    margin-left:50%;
+}
+
+.js-home2__link-display img {
+    width:300px;
+    height:600px;
+    object-fit:contain;
+}

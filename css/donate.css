@@ -1,0 +1,75 @@
+.js-donate-body {
+    margin:0 7%;
+    color:white;
+    background-image:url(../assets/stock-2.png);
+    background-size:cover;
+}
+
+.js-donate-body h1 {
+    font-size:20px;
+    padding:30px 30px 10px 30px;
+}
+
+.js-donate-body form {
+    padding:20px;
+}
+
+.js-donate-body input[type="button"] {
+    width:175px;
+    height:350px;
+    margin:0 10px;
+    color:#F1C411;
+    font-size:24px;
+    font-family: 'Avant Garde', 'Arial', 'Helvetica';
+    font-weight:bold;
+}
+
+.js-donate-body input[type="button"]:active {
+    filter: brightness(80%);
+}
+
+.js-donate-body label {
+    float:left;
+    margin:0 5px 0 25px;
+    font-family: 'Andalé Mono', monospace;
+}
+
+.js-donate-body input[type="text"] {
+    margin-right: min(10px, 5%);
+}
+
+.js-donate-body input[type="submit"] {
+    height:30px;
+    width:100px;
+    margin-left:50px;
+    background-color:#146C80;
+    border:none;
+}
+
+.js-donate-body input[type="submit"]:active {
+    filter: brightness(80%);
+}
+
+#donatesmall {
+    background-image: url(../assets/grad2019-2-regina.jpg);
+    background-size:cover;
+    background-position:center;
+    border:none;
+    padding-top:260px;
+}
+
+#donatemedium {
+    background-image: url(../assets/grad2018-1-kitchener.jpg);
+    background-size:cover;
+    background-position:center;
+    border:none;
+    padding-top:260px;
+}
+
+#donatelarge {
+    background-image: url(../assets/grad2018-2-winnipeg.jpg);
+    background-size:cover;
+    background-position:center;
+    border:none;
+    padding-top:260px;
+}
