@@ -1,8 +1,13 @@
 const express = require("express");
 const path = require('path');
+const mongoose = require("mongoose");
+const mongoClient = require("mongodb").MongoClient;
+const bodyParser = require("body-parser");
 const app = express();
 
 const port = process.env.PORT || 4444;
+
+mongoose.connect("mongodb+srv://main:zswnhbH8NHhZFNQC@cluster0.nch7i.mongodb.net/myFirstDatabase?retryWrites=true&w=majority");
 
 app.set('view engine', 'pug');
 app.use(express.static('public'));

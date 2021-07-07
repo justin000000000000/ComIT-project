@@ -9,7 +9,9 @@
   "author": "Me",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "file:node_modules/body-parser",
     "express": "4.17.1",
+    "mongoose": "^5.13.2",
     "nodemon": "2.0.7",
     "pug": "3.0.2"
   },
