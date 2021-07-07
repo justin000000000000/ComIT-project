@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="eng">
+  <head> 
+    <title>ComIT | Home </title>
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/nav.css">
+    <link rel="stylesheet" href="../css/apply.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="icon" href="../assets/comit1.png">
+  </head>
+  <body> 
+    <div class="nav js-nav">
+      <div class="nav__logo js-nav__logo"><a href="http://localhost:4444"><img src="../assets/comit2.png" alt="ComIT"></a></div>
+      <div class="nav__a js-nav__a"><a href="http://localhost:4444/courses">Courses</a><a href="http://localhost:4444/employers">Employers</a><a href="http://localhost:4444/supporters">Supporters</a><a class="nav__donate js-nav__donate" href="http://localhost:4444/donate" style="padding:7.5px 12.5px;">Donate</a></div>
+      <div class="nav__social js-nav__social js-nav__a"><a href="https://www.linkedin.com/school/comitorg/"><img src="../assets/icons/linkedin.png"></a><a href="https://www.youtube.com/channel/UCWHKdUjlbwcEqYnTvei7Pqg"><img src="../assets/icons/youtube.webp"></a><a href="https://www.instagram.com/comit_org/?hl=en"><img src="../assets/icons/instagram.png"></a><a href="https://twitter.com/comitorg?lang=en"><img src="../assets/icons/twitter.webp"></a><a href="https://www.facebook.com/ComITorg"><img src="../assets/icons/facebook.webp"></a></div>
+    </div>
+    <div class="body-content js-body-content">
+      <div class="apply-content js-apply-content"> 
+        <h1>Course Application</h1>
+        <form id="applyform" action="applyform" method="post">
+          <table> 
+            <tr> 
+              <th>
+                <label>First name</label>
+              </th>
+              <th>
+                <input type="text" id="firstname" name="firstName" autocomplete="off"><br>
+              </th>
+            </tr>
+            <tr>
+              <th>
+                <label>Last name</label>
+              </th>
+              <th>
+                <input type="text" id="lastname" name="lastName" autocomplete="off"><br>
+              </th>
+            </tr>
+            <tr>
+              <th>
+                <label>Date of birth</label>
+              </th>
+              <th>
+                <input type="text" id="dateofbirth" name="dateOfBirth" autocomplete="off"><br>
+              </th>
+            </tr>
+            <tr> 
+              <th>
+                <label>Age</label>
+              </th>
+              <th>
+                <input type="text" id="age" name="age" autocomplete="off"><br>
+              </th>
+            </tr>
+            <tr>
+              <th> 
+                <label>Gender</label>
+              </th>
+              <th>
+                <input type="text" id="gender" name="gender" autocomplete="off"><br>
+              </th>
+            </tr>
+            <tr>
+              <th> 
+                <label>Country and city of residence</label>
+              </th>
+              <th>
+                <input type="text" id="countryandcity" name="countryAndCity" autocomplete="off"><br>
+              </th>
+            </tr>
+            <tr>
+              <th>
+                <label>Can you legally work FULL TIME in Canada</label>
+              </th>
+              <th>
+                <input type="text" id="worklegally" name="workLegally" autocomplete="off"><br>
+              </th>
+            </tr>
+            <tr> 
+              <th>
+                <label>What type of visa or citizenship do you have</label>
+              </th>
+              <th>
+                <input type="text" id="citizenship" name="citizenship" autocomplete="off"><br>
+              </th>
+            </tr>
+            <tr> 
+              <th>
+                <label>Education</label>
+              </th>
+              <th>
+                <input type="text" id="education" name="education" autocomplete="off">
+              </th>
+            </tr>
+            <tr>
+              <th>
+                <label>Availability for taking the course</label>
+              </th>
+              <th>
+                <input type="text" id="time" name="time" autocomplete="off"><br>
+              </th>
+            </tr>
+            <tr>
+              <th>
+                <label>How many people do you live with</label><br><br><br>
+              </th>
+              <th>
+                <input type="text" id="familysize" name="familysize" autocomplete="off"><br><br><br>
+              </th>
+            </tr>
+            <tr>
+              <th>
+                <label>Which industry/sector were you previously emplyed in Canada, if any?</label>
+              </th>
+              <th>
+                <input type="text" id="question1" name="question1" autocomplete="off"><br>
+              </th>
+            </tr>
+            <tr> 
+              <th>
+                <label>Who was your last employer before registering for ComIT? </label><br><span>Or were you unemployed?</span>
+              </th>
+              <th>
+                <input type="text" id="question2" name="question2" autocomplete="off"><br>
+              </th>
+            </tr>
+            <tr>
+              <th> 
+                <label>Who was your last employer before registering for ComIT?</label><br><span>Or were you unemplyed?</span>
+              </th>
+              <th>
+                <input type="text" id="question3" name="question3" autocomplete="off"><br>
+              </th>
+            </tr>
+            <tr>
+              <th>
+                <label>Are there any other people at your house who are currently working?</label><br><span>Who is the main supporter of your home (no names)? What is his or her job?</span>
+              </th>
+              <th>
+                <input type="text" id="meetcomit" name="meetComit" autocomplete="off"><br>
+              </th>
+            </tr>
+            <tr>
+              <th>
+                <label>How did you found out about ComIT?</label>
+              </th>
+              <th>
+                <input type="text" id="registerreason" name="registerReason" autocomplete="off"><br>
+              </th>
+            </tr>
+            <tr>
+              <th>
+                <label>Do you have a laptop you can bring to take the course?</label>
+              </th>
+              <th>
+                <input type="text" id="device" name="device" autocomplete="off"><br>
+              </th>
+            </tr>
+            <tr> 
+              <th>
+                <label>What skills and benefits do you expect you'll get into this training course?</label>
+              </th>
+              <th>
+                <input type="text" id="expectation" name="expectation" autocomplete="off"><br>
+              </th>
+            </tr>
+            <tr>
+              <th>
+                <label>Do you currently work or have you ever worked? Where? For how long?</label>
+              </th>
+              <th>
+                <input type="text" id="expectation" name="expectation" autocomplete="off"><br>
+              </th>
+            </tr>
+            <tr> 
+              <th>
+                <label>Did you take any other trainings or studies? Which ones? Where?</label>
+              </th>
+              <th>
+                <input type="text" id="pasttrainings" name="pastTrainings" autocomplete="off"><br>
+              </th>
+            </tr>
+            <tr> 
+              <th>
+                <label>What kind of job opening are you looking for?</label>
+              </th>
+              <th>
+                <input type="text" id="jobopening" name="jobOpenings" autocomplete="off"><br>
+              </th>
+            </tr>
+            <tr> 
+              <th>
+                <label>Do you have any computing or programming knowledge? Please explain</label>
+              </th>
+              <th>
+                <input type="text" id="previousknowledge" name="previousKnowledge" autocomplete="off"><br>
+              </th>
+            </tr>
+            <tr>
+              <th>
+                <label>What skills do you think you should work on to perform in the IT area?</label>
+              </th>
+              <th>
+                <input type="text" id="skills" name="skills" autocomplete="off"><br>
+              </th>
+            </tr>
+            <tr>
+              <th>
+                <label>Comments (optional)</label>
+              </th>
+              <th>
+                <input type="text" id="comments" name="comments" autocomplete="off"><br>
+              </th>
+            </tr>
+            <tr> 
+              <th> <br><br>
+                <input type="submit" id="applysubmit" name="applySubmit">
+              </th>
+            </tr>
+          </table>
+        </form>
+      </div>
+      <div class="footer js-footer"> 
+        <div class="footer__main js-footer__main">
+          <p style="width:100%;">© ComIT 2020. ComIT is a registered charity. Charity Registration Number 749949723RR0001  </p>
+          <p>All charitable donations to ComIT are eligible for a tax receipt in Canada.</p>
+        </div>
+      </div>
+    </div>
+  </body>
+  <body> </body>
+</html>
+<html></html>
