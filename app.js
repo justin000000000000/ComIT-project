@@ -2,7 +2,7 @@ const express = require("express");
 const path = require('path');
 const app = express();
 
-const port = process.env.PORT;
+const port = process.env.PORT || 4444;
 
 app.set('view engine', 'pug');
 app.use(express.static('public'));
