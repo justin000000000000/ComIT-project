@@ -12,19 +12,19 @@ app.get('/', (req, res) => {
    res.render('index'); 
 });
 
-app.get('${window.location.hostname}/courses', (req, res) => {
+app.get('/courses', (req, res) => {
     res.render('courses');
 });
 
-app.get('${window.location.hostname}/associates', (req, res) => {
+app.get('/associates', (req, res) => {
     res.render('associates');
 });
 
-app.get('${window.location.hostname}/donate', (req, res) => {
+app.get('/donate', (req, res) => {
     res.render('donate');
 });
 
-app.get('${window.location.hostname}/apply', (req, res) => {
+app.get('/apply', (req, res) => {
     res.render('apply');
 });
 
