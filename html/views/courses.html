@@ -22,6 +22,14 @@
       <option value="Northwest Territories"></option>
       <option value="Nunavut"></option>
     </datalist>
+    <datalist id="courses">
+      <option value="Python"></option>
+      <option value="Java"></option>
+      <option value="Javascript"></option>
+      <option value="NodeJS"></option>
+      <option value="ReactJS"></option>
+      <option value=".NET"></option>
+    </datalist>
     <script type="text/javascript" src="../scripts/courses.js"></script>
   </head>
   <body> 
@@ -32,17 +40,19 @@
     </div>
     <div class="body-content js-body-content">
       <div class="register-body js-register-body">
-        <div class="register__body1 js-register__body1"><span id="register-title">Register For A Course Today</span><br><span id="register-description">We will contact you as class openings apply</span><br><br><span id="register-title">Our Courses</span><br>
+        <div class="register__body1 js-register__body1"><span id="register-title">Register For A Course Today</span><br><span id="register-description">We will contact you as class openings apply</span><br><br>
           <div class="register1__button-display js-register__button-display">
             <form id="courseform" action="courseForm" method="post">
-              <input type="button" value="Python" name="pythonbutton" id="pythonButton">
-              <input type="button" value="Java" name="javabutton" id="javaButton">
-              <input type="button" value="Javascript" name="javascriptbutton" id="javascriptButton"><br>
-              <input type="button" value="NodeJS" name="nodejsbutton" id="nodejsButton">
-              <input type="button" value="ReactJS" name="reactjsbutton" id="reactjsButton">
-              <input type="button" value=".NET" name="netbutton" id="netButton">
-              <div class="register__body2 js-register__body2" id="register__body2">
+              <div class="register__body1 js-register__body1" id="register__body1">
                 <table>
+                  <tr>
+                    <th>
+                      <label>Name of Course </label>
+                    </th>
+                    <th>
+                      <input type="text" list="courses" id="coursesclass" name="coursesClass" autocomplete="off">
+                    </th>
+                  </tr>
                   <tr>
                     <th>
                       <label>Full Name</label>

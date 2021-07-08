@@ -18,17 +18,48 @@
       <div class="donate-body js-donate-body">
         <h1>Support Our Team. Support Our Students.</h1>
         <form id="donateform" action="donateForm" method="post">
-          <input type="button" id="donatesmall" name="donateSmall" value="$3 Donation">
-          <input type="button" id="donatemedium" name="donateMedium" value="$10 Donation">
-          <input type="button" id="donatelarge" name="donateLarge" value="$20 Donation"><br><br>
-          <label>First Name⠀</label>
-          <input type="text" id="firstname" name="firstName" autocomplete="off"><br>
-          <label>Last Name⠀⠀</label>
-          <input type="text" id="lastname" name="lastName" autocomplete="off"><br>
-          <label>Comments⠀⠀⠀</label>
-          <input type="text" id="comments" name="comments" autocomplete="off"><br>
-          <label>Email   ⠀⠀⠀ ⠀</label>
-          <input type="text" id="donate" name="donate" autocomplete="off"><br><br>
+          <table> 
+            <tr> 
+              <th> 
+                <label>First Name⠀</label>
+              </th>
+              <th>
+                <input type="text" id="firstname" name="firstName" autocomplete="off">
+              </th>
+            </tr><br>
+            <tr> 
+              <th>
+                <label>Last Name⠀⠀</label>
+              </th>
+              <th>
+                <input type="text" id="lastname" name="lastName" autocomplete="off">
+              </th>
+            </tr><br>
+            <tr>
+              <th>
+                <label>Comments⠀⠀⠀</label>
+              </th>
+              <th>
+                <input type="text" id="comments" name="comments" autocomplete="off">
+              </th>
+            </tr><br>
+            <tr>
+              <th>
+                <label>Email   ⠀⠀⠀ ⠀</label>
+              </th>
+              <th>
+                <input type="text" id="email" name="email" autocomplete="off">
+              </th>
+            </tr><br>
+            <tr>
+              <th>
+                <label>Donation Amount </label>
+              </th>
+              <th>
+                <input type="text" id="donate" name="donate" autocomplete="off">
+              </th>
+            </tr><br>
+          </table><br>
           <input type="submit" id="submit" name="submitDonate">
         </form>
         <h1 style="font-size:12px;">All donations to ComIT are eligible for a tax receipt in Canada!</h1>

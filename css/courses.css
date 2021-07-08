@@ -36,25 +36,24 @@
     float:left;
 }
 
-.js-register__body2 {
+.js-register__body1 {
     float:left;
     position:absolute;
     margin:25px 0 0 70px;
 }
 
-.js-register__body2 {
+.js-register__body1 {
     color:white;
     text-align:left;
-    visibility:hidden;
 }
 
-.js-register__body2 input[type="text"] {
+.js-register__body1 input[type="text"] {
     margin-left:35px;
     width:200px;
     height:20px;
 }
 
-.js-register__body2 input[type="submit"] {
+.js-register__body1 input[type="submit"] {
     height:30px;
     width:100px;
     background-color:#146C80;

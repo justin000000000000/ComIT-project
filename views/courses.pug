@@ -21,7 +21,16 @@ html(lang='eng')
             option(value="Yukon")
             option(value="Northwest Territories")
             option(value="Nunavut")
+
+        datalist(id="courses")
+            option(value="Python")
+            option(value="Java")
+            option(value="Javascript")
+            option(value="NodeJS")
+            option(value="ReactJS")
+            option(value=".NET")
         script(type="text/javascript" src="../scripts/courses.js")
+        
             
             
     body 
@@ -34,19 +43,15 @@ html(lang='eng')
                     span(id="register-description") We will contact you as class openings apply
                     br
                     br
-                    span(id="register-title") Our Courses
-                    br
                     .register1__button-display.js-register__button-display
                         form(id="courseform" action="courseForm" method="post")
-                            input(type="button" value="Python" name="pythonbutton" id="pythonButton")
-                            input(type="button" value="Java" name="javabutton" id="javaButton")
-                            input(type="button" value="Javascript" name="javascriptbutton" id="javascriptButton")
-                            br
-                            input(type="button" value="NodeJS" name="nodejsbutton" id="nodejsButton") 
-                            input(type="button" value="ReactJS" name="reactjsbutton" id="reactjsButton")
-                            input(type="button" value=".NET" name="netbutton" id="netButton")
-                            .register__body2.js-register__body2#register__body2
+                            .register__body1.js-register__body1#register__body1
                                 table
+                                    tr
+                                        th
+                                            label(for=coursesclass) Name of Course 
+                                        th
+                                            input(type="text" list="courses" id="coursesclass" name="coursesClass" autocomplete="off")
                                     tr
                                         th
                                             label(for=coursesname) Full Name

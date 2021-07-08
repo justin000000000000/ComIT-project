@@ -13,23 +13,37 @@ html(lang='eng')
             .donate-body.js-donate-body
                 h1 Support Our Team. Support Our Students.
                 form(id="donateform" action="donateForm" method="post")
-                    input(type="button" id="donatesmall" name="donateSmall" value="$3 Donation")
-                    input(type="button" id="donatemedium" name="donateMedium" value="$10 Donation")
-                    input(type="button" id="donatelarge" name="donateLarge" value="$20 Donation")
-                    br
-                    br
-                    label(for=firstname) First Name⠀
-                    input(type="text" id="firstname" name="firstName" autocomplete="off")
-                    br
-                    label(for=lastname) Last Name⠀⠀
-                    input(type="text" id="lastname" name="lastName" autocomplete="off")
-                    br
-                    label(for=comments) Comments⠀⠀⠀
-                    input(type="text" id="comments" name="comments" autocomplete="off")
-                    br
-                    label(for=email) Email   ⠀⠀⠀ ⠀
-                    input(type="text" id="donate" name="donate" autocomplete="off")
-                    br
+                    table 
+                        tr 
+                            th 
+                                label(for=firstname) First Name⠀
+                            th
+                                input(type="text" id="firstname" name="firstName" autocomplete="off")
+                        br
+                        tr 
+                            th
+                                label(for=lastname) Last Name⠀⠀
+                            th
+                                input(type="text" id="lastname" name="lastName" autocomplete="off")
+                        br
+                        tr
+                            th
+                                label(for=comments) Comments⠀⠀⠀
+                            th
+                                input(type="text" id="comments" name="comments" autocomplete="off")
+                        br
+                        tr
+                            th
+                                label(for=email) Email   ⠀⠀⠀ ⠀
+                            th
+                                input(type="text" id="email" name="email" autocomplete="off")
+                        br
+                        tr
+                            th
+                                label(for=donation) Donation Amount 
+                            th
+                                input(type="text" id="donate" name="donate" autocomplete="off")
+                        br
                     br
                     input(type="submit" id="submit" name="submitDonate")
                 h1(style="font-size:12px;") All donations to ComIT are eligible for a tax receipt in Canada!
